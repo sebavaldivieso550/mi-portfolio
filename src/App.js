@@ -15,7 +15,7 @@ function App() {
             mi capacidad analítica y de resolución de problemas.
           </p>
           <div style={styles.contactButtons}>
-            <a href="https://www.linkedin.com/in/sebastián-valdivieso/" target="_blank" style={styles.btnLinkedin}>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/sebastián-valdivieso/" target="_blank" rel="noreferrer" style={styles.btnLinkedin}>LinkedIn</a>
             <a href="mailto:sebavaldivieso550@gmail.com" style={styles.btnEmail}>Contacto</a>
           </div>
         </div>
