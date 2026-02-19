@@ -1,26 +1,38 @@
 import React from 'react';
 
+import fotoCooler from '../assets/images/fotoCooler.jpeg'
+import fotoLimpieza from '../assets/images/fotoLimpieza.jpeg'
+import fotoPcNueva from '../assets/images/fotoPcNueva.jpeg'
+import fotoUpgrade from '../assets/images/fotoUpgrade.jpeg'
+
 const hardwareJobs = [
   {
     id: 1,
-    title: "Mantenimiento Preventivo High-End",
-    description: "Limpieza profunda de componentes, cambio de pasta térmica (Arctic MX-4) y optimización de flujo de aire.",
-    impacto: "Reducción de 15°C en CPU bajo carga.",
-    image: "https://via.placeholder.com/400x250?text=Limpieza+PC"
+    title: "Reparación de Sistema de Enfriamiento (Laptop)",
+    description: "Diagnóstico de falla crítica en ventilador (Error Fan 1). Proceso de sustitución de componente mecánico y verificación de ciclos de disipación.",
+    impacto: "Restauración total de la operabilidad del sistema térmico.",
+    image: fotoCooler
   },
   {
     id: 2,
-    title: "Diagnóstico y Reparación de Hardware",
-    description: "Resolución de problemas de booteo. Identificación de fallas en módulos RAM y reemplazo de fuente certificada.",
-    impacto: "Equipo recuperado sin pérdida de datos.",
-    image: "https://via.placeholder.com/400x250?text=Reparacion+Hardware"
+    title: "Arquitectura y Montaje de Workstation Gamer",
+    description: "Asesoría integral de componentes para eliminar cuellos de botella (Bottlenecking). Ensamble profesional con gestión de cableado para optimizar flujo de aire.",
+    impacto: "Eficiencia máxima de performance y estética de nivel entusiasta.",
+    image: fotoPcNueva
   },
   {
     id: 3,
-    title: "Armado de Setup Gamer/Workstation",
-    description: "Montaje completo desde cero con gestión de cableado (Cable Management) profesional.",
-    impacto: "Estética limpia y flujo de aire optimizado.",
-    image: "https://via.placeholder.com/400x250?text=Armado+Cero"
+    title: "Mantenimiento Preventivo y Térmico",
+    description: "Intervención profunda en equipo con estrés térmico severo. Limpieza de conductos de aire y renovación de compuestos para estabilizar FPS y evitar tildes.",
+    impacto: "Reducción significativa de temperatura y mejora en fluidez del SO.",
+    image: fotoLimpieza
+  },
+  {
+    id: 4,
+    title: "Escalabilidad de Hardware (PC Upgrade)",
+    description: "Auditoría de compatibilidad para actualización de CPU y GPU. Optimización basada en las capacidades de la placa madre y entrega de potencia de la fuente.",
+    impacto: "Incremento de potencia gráfica sin comprometer la estabilidad eléctrica.",
+    image: fotoUpgrade
   }
 ];
 
