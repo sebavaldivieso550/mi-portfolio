@@ -7,6 +7,44 @@
   pointer-events: none;
 }
 
+/* Contenedor de la tarjeta */
+.hardware-card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Movimiento más elástico */
+}
+
+/* Efecto de agrandar la tarjeta completa */
+.hardware-card:hover {
+  transform: translateY(-10px) scale(1.05); /* Sube un poquito y se agranda */
+  z-index: 50; /* Asegura que no quede debajo de otras tarjetas al abrirse */
+}
+
+/* IMAGEN 1 (La de arriba - se mueve a la izquierda) */
+.hardware-card:hover .img-stack-0 {
+  transform: rotate(-12deg) translateX(-40px) translateY(-5px);
+  box-shadow: -5px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* IMAGEN 2 (La del medio - queda casi centrada o rota apenas) */
+.hardware-card:hover .img-stack-1 {
+  opacity: 1;
+  transform: rotate(0deg) translateY(-15px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* IMAGEN 3 (La de abajo - se mueve a la derecha) */
+.hardware-card:hover .img-stack-2 {
+  opacity: 1;
+  transform: rotate(12deg) translateX(40px) translateY(-5px);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Estado inicial de las fotos de atrás (un poco más visibles para que se intuya que hay algo) */
+.hardware-card .img-stack-1, 
+.hardware-card .img-stack-2 {
+  opacity: 0.4; /* Se ven un poquito de fondo para invitar al hover */
+  transform: scale(0.95); /* Un pelín más chicas para que no sobresalgan antes del hover */
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

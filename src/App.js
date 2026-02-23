@@ -1,6 +1,8 @@
 import HardwareGallery from './components/HardwareGallery';
 import SoftwareProjects from './components/SoftwareProjects';
 
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
