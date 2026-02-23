@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #555555;
 }
 
 .App-logo {
@@ -72,5 +73,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  /* En celulares, abrimos menos el abanico para que no se corte */
+  .hardware-card:hover .img-stack-0 {
+    transform: rotate(-8deg) translateX(-20px);
+  }
+  .hardware-card:hover .img-stack-2 {
+    transform: rotate(8deg) translateX(20px);
+  }
+  .hardware-card:hover {
+    transform: scale(1.02); /* Menos zoom en móvil */
   }
 }

@@ -96,8 +96,8 @@ const HardwareGallery = () => {
 };
 
 const styles = {
-  section: { padding: '60px 20px', backgroundColor: '#f9f9f9' },
-  title: { textAlign: 'center', marginBottom: '50px', fontFamily: 'Arial' },
+  section: { padding: '60px 20px', backgroundColor: '#777777' },
+  title: { textAlign: 'center', marginBottom: '50px', fontFamily: 'Arial', color: "#d5def0" },
   grid: { 
     display: 'grid', 
     gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
