@@ -1,49 +1,58 @@
 import React from 'react';
 
 const projects = [
-    {
-        id: 1,
-        category: 'baby',
-        title: "CEMIP Odontología",
-        tech: "HTML5 Semántico | SASS (SCSS) | Bootstrap 5",
-        description: "Sitio web institucional con arquitectura modular de estilos. Implementación de diseño responsivo, optimización SEO básica y automatización de estilos mediante loops de SASS.",
-        link: "https://github.com/sebavaldivieso550/odontologia-cemip",
-        demo: "https://sebavaldivieso550.github.io/odontologia-cemip/"
-    },
-    {
-        id: 2, 
-        category: 'baby',
-        title: "TechFlow E-commerce",
-        tech: "JavaScript (ES6+) | LocalStorage | Fetch API | Swiper.js",
-        description: "Simulador de tienda con motor de búsqueda, filtrado dinámico y sistema de carrito persistente. Implementación de modo oscuro con guardado de preferencias del usuario y consumo de datos asíncronos mediante archivos JSON.",
-        link: "https://github.com/sebavaldivieso550/TechFlow-Plataforma-de-Comercio-Electronico-con-Persistencia", 
-        demo: "https://sebavaldivieso550.github.io/TechFlow-Plataforma-de-Comercio-Electronico-con-Persistencia/" 
-    },
-    {
-        id: 3,
-        category: 'featured',
-        title: "BookNode Backend API",
-        tech: "Node.js | Express | MySQL | Docker",
-        description: "API RESTful para gestión de datos relacionales. Implementación de arquitectura CRUD, manejo de errores HTTP semánticos y entorno de desarrollo aislado mediante contenedores Docker.",
-        link: "https://github.com/tu-usuario/my-simple-book-api",
-    },
-    {
-        id: 4, 
-        category: 'featured',
-        title: "System Orchestrator Full-Stack",
-        tech: "React (Vite) | Node.js | MySQL | Docker Compose",
-        description: "Aplicación integral con arquitectura desacoplada. Implementación de Docker Compose para orquestación de servicios, gestión de CORS para seguridad entre dominios y despliegue distribuido (Vercel/Render/PlanetScale).",
-        link: "https://github.com/sebavaldivieso550/System-Orchestrator-Gestion-de-Tareas-End-to-End",
-    },
-    {
-        id: 5, 
-        category: 'featured',
-        title: "Ingeniería Hub: Portfolio Profesional",
-        tech: "React | Vercel | Git Workflow",
-        description: "Plataforma personal diseñada bajo principios de Single Page Application (SPA). Implementación de despliegue continuo (CD) mediante Vercel y arquitectura de componentes reutilizables para escalabilidad de contenido.",
-        link: "https://github.com/sebavaldivieso550/mi-portfolio", 
-        demo: "https://sebastian-valdivieso-ing.vercel.app" 
-    },
+  {
+    id: 1,
+    category: 'baby',
+    title: "CEMIP Odontología",
+    tech: "HTML5 Semántico | SASS (SCSS) | Bootstrap 5",
+    description: "Sitio web institucional con arquitectura modular de estilos. Implementación de diseño responsivo, optimización SEO básica y automatización de estilos mediante loops de SASS.",
+    link: "https://github.com/sebavaldivieso550/odontologia-cemip",
+    demo: "https://sebavaldivieso550.github.io/odontologia-cemip/"
+  },
+  {
+    id: 2, 
+    category: 'baby',
+    title: "TechFlow E-commerce",
+    tech: "JavaScript (ES6+) | LocalStorage | Fetch API | Swiper.js",
+    description: "Simulador de tienda con motor de búsqueda, filtrado dinámico y sistema de carrito persistente. Implementación de modo oscuro con guardado de preferencias del usuario y consumo de datos asíncronos mediante archivos JSON.",
+    link: "https://github.com/sebavaldivieso550/TechFlow-Plataforma-de-Comercio-Electronico-con-Persistencia", 
+    demo: "https://sebavaldivieso550.github.io/TechFlow-Plataforma-de-Comercio-Electronico-con-Persistencia/" 
+  },
+  {
+    id: 3,
+    category: 'featured',
+    title: "BookNode Backend API",
+    tech: "Node.js | Express | MySQL | Docker",
+    description: "API RESTful para gestión de datos relacionales. Implementación de arquitectura CRUD, manejo de errores HTTP semánticos y entorno de desarrollo aislado mediante contenedores Docker.",
+    link: "https://github.com/sebavaldivieso550/my-simple-book-api",
+  },
+  {
+    id: 4, 
+    category: 'featured',
+    title: "System Orchestrator Full-Stack",
+    tech: "React (Vite) | Node.js | MySQL | Docker Compose",
+    description: "Aplicación integral con arquitectura desacoplada. Implementación de Docker Compose para orquestación de servicios, gestión de CORS para seguridad entre dominios y despliegue distribuido (Vercel/Render/PlanetScale).",
+    link: "https://github.com/sebavaldivieso550/System-Orchestrator-Gestion-de-Tareas-End-to-End",
+  },
+  {
+    id: 5, 
+    category: 'featured',
+    title: "Ingeniería Hub: Portfolio Profesional",
+    tech: "React | Vercel | Git Workflow",
+    description: "Plataforma personal diseñada bajo principios de Single Page Application (SPA). Implementación de despliegue continuo (CD) mediante Vercel y arquitectura de componentes reutilizables para escalabilidad de contenido.",
+    link: "https://github.com/sebavaldivieso550/mi-portfolio", 
+    demo: "https://sebastian-valdivieso-ing.vercel.app" 
+  },
+  {
+    id: 6,
+    category: 'featured',
+    title: "OdontoApp - Medical SaaS",
+    tech: "React | Firebase | Tailwind | Framer Motion",
+    description: "Sistema integral de gestión de turnos médicos en tiempo real. Incluye autenticación personalizada (DNI), base de datos NoSQL, integración con WhatsApp y una interfaz optimizada para alta productividad médica.",
+    link: "https://github.com/sebavaldivieso550/odonto-app",
+    isNew: true
+  },
 ];
 
 const SoftwareProjects = () => {
